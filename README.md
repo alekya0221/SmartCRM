@@ -47,16 +47,4 @@ You’ll see a final enriched file with columns like:
 lead_id | simulated_stage | stage_reason | engagement_health | nurture_track
 
 And an override log like:
-2025-07-06 | Ally | Lowered SQL threshold from 80 to 70 | Too many high-intent leads stuck in MQL
-
-
-## Why “Hard-Coded” Logging Makes Sense
-Override logs are added with manual calls to log_override(...) for each logic change. This is intentional:
-
-Keeps logic auditable without needing a UI or config panel
-
-Mimics how teams document logic updates in real CRM ops
-
-Easier for submission and repeatability
-
-This mirrors version control — not automation, but explainable design decisions.
+2025-07-06 | Ally | Lowered SQL threshold from 80 to 70 | Too many high-intent leads stuck in MQL 
