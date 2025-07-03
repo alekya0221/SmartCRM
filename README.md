@@ -39,9 +39,8 @@ This project simulates a smart CRM engine that can analyze lead behavior, apply 
 
 ---
 
-## Example Output
 
-You’ll see a final enriched file with columns like:
+Also there is a final enriched file with columns like:
 
 ```plaintext
 lead_id | simulated_stage | stage_reason | engagement_health | nurture_track
