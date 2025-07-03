@@ -146,40 +146,12 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
----
-
-##  Folder Structure Recommendation (Optional)
-
-```bash
-SmartCRM_Project/
-├── data/
-│   ├── leads_cleaned_1000.csv
-│   ├── leads_with_stages.csv
-│   ├── leads_with_feedback_flags.csv
-│   ├── leads_with_nurture_tracks.csv
-│   ├── logic_overrides.csv
-├── scripts/
-│   ├── funnel_stages.py
-│   ├── feedback_loops.py
-│   ├── nurturing_playbooks.py
-│   ├── log_logic_override.py
-│   ├── plot_conversion_funnel.py
-├── docs/
-│   ├── crm_fields_notion.md
-│   ├── crm_schema.csv
-│   ├── genai_prompts.md
-│   └── SmartCRM_Presentation.pdf
-├── outputs/
-│   ├── conversion_funnel.html
-├── requirements.txt
-├── README.md
-```
 
 ---
 
 ##  Credits
 
-Created by a CRM automation enthusiast to simulate:
+Created by Alekya Rani Seerapu- a CRM automation enthusiast to simulate:
 
 > "How would a RevOps assistant powered by GenAI behave?"
 
